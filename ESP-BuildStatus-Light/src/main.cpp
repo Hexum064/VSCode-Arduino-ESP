@@ -722,7 +722,7 @@ bool initWifi(Settings settings)
 
 void initHTTPServer()
 {
-  if (MDNS.begin("esp8266")) 
+  if (MDNS.begin("esp-buildstatus-light")) 
   {
     Serial.println("MDNS responder started");
   }
